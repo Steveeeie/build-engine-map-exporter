@@ -33,7 +33,7 @@ If you find this project useful, consider sponsoring me or making a one-time don
 
 ## Feature Requests and Contributions
 
-Contributions, testing, and improvements are welcome.
+Contributions are welcome.
 
 Please report bugs or make any feature requests via the GitHub issue tracker. Don't contact me directly. My availability is limited, and using issues helps ensure requests aren't lost over time and allows others to contribute fixes via pull requests.
 
