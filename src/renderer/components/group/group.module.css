@@ -1,0 +1,6 @@
+.group {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  gap: var(--spacing-1);
+}

@@ -1,0 +1,80 @@
+:root {
+  --color-text-dark: #1b1b1b;
+  --color-text-light: rgba(196, 199, 197, 1);
+  --color-text-light-secondary: rgba(196, 199, 197, 0.75);
+  --color-text-light-placeholder: rgba(196, 199, 197, 0.5);
+  --color-darkest: #131314;
+  --color-darker: #1b1b1b;
+  --color-dark: #272a2c;
+  --color-dark-hover: #36393b;
+  --color-border: #444547;
+  --color-accent: #00dc6a;
+  --color-success: var(--color-accent);
+  --color-error: #f74141;
+
+  --opacity-disabled: 0.5;
+
+  --spacing-1: 8px;
+  --spacing-2: 12px;
+  --spacing-3: 16px;
+  --spacing-4: 24px;
+  --spacing-5: 32px;
+
+  --radius-tiny: 4px;
+  --radius-small: 8px;
+  --radius-medium: 16px;
+
+  --font-size-small: 12px;
+  --font-size-medium: 14px;
+  --font-size-large: 18px;
+
+  --font-weight-regular: normal;
+  --font-weight-medium: bold;
+
+  --font-family-regular:
+    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial,
+    sans-serif;
+
+  --height-input-medium: 44px;
+  --height-input-large: 52px;
+}
+
+*,
+*::before,
+*::after {
+  color: inherit;
+  font: inherit;
+  border: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  user-select: none;
+}
+
+*:focus-visible {
+  outline: 2px solid var(--color-accent);
+  outline-offset: 2px;
+}
+
+body {
+  -moz-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  -webkit-font-smoothing: antialiased;
+  background-color: var(--color-darkest);
+  color: var(--color-text-light);
+  font-family: var(--font-family-regular);
+  font-size: var(--font-size-medium);
+  text-rendering: optimizeLegibility;
+  overflow: hidden;
+}
+
+strong {
+  font-weight: var(--font-weight-medium);
+}
+
+#app {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}

@@ -1,0 +1,15 @@
+.wrapper {
+  flex: none;
+}
+
+.regular {
+  fill: currentColor;
+}
+
+.success {
+  fill: var(--color-success);
+}
+
+.error {
+  fill: var(--color-error);
+}

@@ -1,0 +1,22 @@
+.input {
+  align-items: center;
+  background-color: var(--color-darkest);
+  border-radius: var(--radius-small);
+  border: 1px solid var(--color-border);
+  display: inline-flex;
+  flex: 1;
+  font-size: var(--font-size-small);
+  height: var(--height-input-medium);
+  min-width: 128px;
+  overflow: hidden;
+  padding-inline: var(--spacing-3);
+  white-space: nowrap;
+}
+
+.input::placeholder {
+  color: var(--color-text-light-placeholder);
+}
+
+.input:disabled {
+  opacity: var(--opacity-disabled);
+}

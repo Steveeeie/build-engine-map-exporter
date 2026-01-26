@@ -1,0 +1,40 @@
+.wrapper {
+  align-items: center;
+  animation: slideIn 0.2s ease-out;
+  background-color: var(--color-dark);
+  border-radius: var(--radius-small);
+  bottom: var(--spacing-3);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  display: flex;
+  gap: var(--spacing-2);
+  padding: var(--spacing-2) var(--spacing-3);
+  position: fixed;
+  right: var(--spacing-3);
+  z-index: 10;
+}
+
+.wrapper.exiting {
+  animation: slideOut 0.2s ease-in forwards;
+}
+
+@keyframes slideIn {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+}
