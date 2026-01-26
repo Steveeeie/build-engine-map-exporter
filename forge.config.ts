@@ -26,7 +26,9 @@ const config: ForgeConfig = {
       name: "BuildMapExporter",
       setupIcon: "./icon.ico",
     }),
-    new MakerDMG({}),
+    new MakerDMG({
+      name: "BuildMapExporter",
+    }),
   ],
   plugins: [
     new VitePlugin({
