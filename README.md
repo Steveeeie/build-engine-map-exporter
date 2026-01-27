@@ -4,6 +4,8 @@ A map viewer and export tool for **Build Engine** games, including **Duke Nukem 
 
 ![Screenshot](./screenshot.png)
 
+[preview.webm](https://github.com/user-attachments/assets/5c749ded-922c-4cd5-9732-b25fe388d720)
+
 ---
 
 ## Download
