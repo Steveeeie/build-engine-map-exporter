@@ -23,16 +23,6 @@ Download the latest release for your platform from the [Releases page](https://g
 
 ---
 
-## Sponsor
-
-<a href="https://github.com/sponsors/Steveeeie"><img src="./sponsor.png" width="48" /></a>
-
-If you find this project useful, consider sponsoring me or making a one-time donation so I can do more like this in the future.
-
-[Sponsor](https://github.com/sponsors/Steveeeie)
-
----
-
 ## Feature Requests and Contributions
 
 Contributions are welcome.
