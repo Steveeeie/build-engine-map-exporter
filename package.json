@@ -5,6 +5,7 @@
   "description": "A map viewer and export tool for Build Engine games",
   "main": ".vite/build/index.js",
   "private": true,
+  "packageManager": "pnpm@10.29.2",
   "scripts": {
     "start": "ELECTRON_DISABLE_SECURITY_WARNINGS=true electron-forge start",
     "package": "electron-forge package",
@@ -68,5 +69,14 @@
     "react": "^19.2.3",
     "react-dom": "^19.2.3",
     "three": "^0.182.0"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "electron",
+      "electron-winstaller",
+      "fs-xattr",
+      "macos-alias"
+    ]
   }
 }

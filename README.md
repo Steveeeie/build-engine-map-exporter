@@ -86,11 +86,11 @@ cd build-map-exporter
 3. Install dependencies
 
 ```bash
-npm install
+pnpm install
 ```
 
 4. Run locally
 
 ```bash
-npm start
+pnpm start
 ```
